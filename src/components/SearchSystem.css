@@ -1,0 +1,21 @@
+.Search{
+    border-radius: 10px;
+    color: aliceblue;
+    background: white;
+    z-index: 2;
+    position: absolute;
+    width: 400px;
+}
+
+.Name{
+    border: 0px;
+    align-items: center;
+    background-color: white;
+    color: black;
+}
+
+.Name:hover{
+    align-self: center;
+    background-color:  #007bff;
+    color: aliceblue;
+}

@@ -1,0 +1,68 @@
+.floating-form {
+    width: 400px;
+    margin: 150px auto;
+    padding: 20px;
+    background-color: #f2f2f280;
+    border-color: #0056b3;
+    border-radius: 20px;
+    box-shadow: 220px 0px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+    transition: transform 0.3s ease-in-out;
+    position: relative; /* Add this line */
+    z-index: 1000; /* Add this line */
+    border: 5px solid white;
+  }
+  
+  .form-header {
+    text-align: center;
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-input1 {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  .search-input2 {
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  .search-button {
+    padding: 10px;
+    margin-top: 20px;
+    width: 250px;
+    align-self: center;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+
+  .dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+  
